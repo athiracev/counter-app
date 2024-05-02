@@ -17,9 +17,7 @@ function CounterMain() {
           <button className='btn btn-info' onClick={()=>{dispatch(reset())}}>Reset</button>
           <button className='btn btn-danger' onClick={()=>{dispatch(decrease())}}>Decrease</button>
         </div>
-        {/* <button className='btn btn-success' onClick={()=>{dispatch(increase())}}>Increase</button>
-          <button className='btn btn-info' onClick={()=>{dispatch(reset())}}>Reset</button>
-          <button className='btn btn-danger' onClick={()=>{dispatch(decrease())}}>Decrease</button> */}
+      
 
       </div>
 
